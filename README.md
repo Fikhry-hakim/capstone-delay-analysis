@@ -1,4 +1,4 @@
-# ✈️ Airline Delay Analysis using AI Support
+# ✈️ Analisis Keterlambatan Penerbangan di Amerika Serikat (2017–2022) Menggunakan IBM Granite
 
 ## 📌 Project Overview
 Analisis ini bertujuan untuk mengeksplorasi penyebab keterlambatan penerbangan di Amerika Serikat berdasarkan data historis. Proyek ini menggunakan pendekatan analitik berbasis AI untuk menghasilkan insight dan rekomendasi strategis.
