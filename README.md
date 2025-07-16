@@ -1,13 +1,24 @@
-# ✈️ Capstone Project: Airline Delay Analysis
+# ✈️ Airline Delay Analysis using AI Support
 
-Project ini menganalisis data delay penerbangan berdasarkan penyebab utama (maskapai, cuaca, sistem navigasi, dsb.) menggunakan visualisasi dan bantuan LLM IBM Granite.
+## 📌 Project Overview
+Analisis ini bertujuan untuk mengeksplorasi penyebab keterlambatan penerbangan di Amerika Serikat berdasarkan data historis. Proyek ini menggunakan pendekatan analitik berbasis AI untuk menghasilkan insight dan rekomendasi strategis.
 
-## 📁 Struktur
-- `Capstone_Project.ipynb`: Notebook analisis
-- `README.md`: Penjelasan proyek
-- `airline_delay.csv`: Dataset
+## 📂 Raw Dataset Link
+Dataset yang digunakan adalah **[Airline_Delay_Cause.csv]([link-ke-google-drive-atau-repo](https://www.kaggle.com/datasets/jawadkhattak/us-flight-delay-from-january-2017-july-2022))**  
+(Silakan sesuaikan linknya!)
 
-## 🔍 Insight Utama
-- Keterlambatan tertinggi disebabkan oleh late aircraft dan carrier.
-- Korelasi tinggi antara keterlambatan maskapai dan pesawat sebelumnya.
+## 📊 Insight & Findings
+- **Late aircraft delay** dan **carrier delay** merupakan dua penyebab utama keterlambatan penerbangan.
+- Terdapat korelasi tinggi (0.88) antara keterlambatan maskapai dan pesawat sebelumnya.
+- Tren tahunan menunjukkan peningkatan keterlambatan yang fluktuatif setelah 2020.
+- Maskapai dengan carrier delay tertinggi adalah OO, WN, dan AA.
+- Faktor cuaca dan keamanan memiliki pengaruh relatif kecil terhadap total delay.
 
+## 🤖 AI Support Explanation
+Proyek ini menggunakan **IBM Granite LLM** melalui integrasi di Google Colab untuk:
+- Menghasilkan insight otomatis dari visualisasi
+- Menyusun rekomendasi strategis berdasarkan pola data
+- Mendukung analisis naratif dan summarization
+
+AI digunakan untuk **mempercepat proses interpretasi data** dan membantu menyusun laporan berbasis temuan yang akurat.  
+Model yang digunakan: `ibm-granite/granite-3-3b-8b-instruct` via `langchain`.
