@@ -4,8 +4,8 @@
 Analisis ini bertujuan untuk mengeksplorasi penyebab keterlambatan penerbangan di Amerika Serikat berdasarkan data historis. Proyek ini menggunakan pendekatan analitik berbasis AI untuk menghasilkan insight dan rekomendasi strategis.
 
 ## 📂 Raw Dataset Link
-Dataset yang digunakan adalah **[Airline_Delay_Cause.csv]([link-ke-google-drive-atau-repo](https://www.kaggle.com/datasets/jawadkhattak/us-flight-delay-from-january-2017-july-2022))**  
-(Silakan sesuaikan linknya!)
+Dataset yang digunakan adalah **[Airline_Delay_Cause.csv])**  
+([link-ke-google-drive-atau-repo](https://www.kaggle.com/datasets/jawadkhattak/us-flight-delay-from-january-2017-july-2022)
 
 ## 📊 Insight & Findings
 - **Late aircraft delay** dan **carrier delay** merupakan dua penyebab utama keterlambatan penerbangan.
