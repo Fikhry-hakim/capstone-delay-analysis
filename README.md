@@ -3,7 +3,7 @@
 Project ini menganalisis data delay penerbangan berdasarkan penyebab utama (maskapai, cuaca, sistem navigasi, dsb.) menggunakan visualisasi dan bantuan LLM IBM Granite.
 
 ## 📁 Struktur
-- `Capstone_project.ipynb`: Notebook analisis
+- `Capstone_Project.ipynb`: Notebook analisis
 - `README.md`: Penjelasan proyek
 - `airline_delay.csv`: Dataset
 
